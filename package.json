@@ -1,12 +1,13 @@
 {
   "name": "s.feid.dev",
+  "description": "Pemendek pranala Frontend Indonesia 🔗",
   "version": "1.0.0",
-  "description": "Frontend Indonesia URL shortener",
-  "main": "index.js",
-  "repository": "https://github.com/frontend-id/s.feid.dev",
+  "repository": "https://github.com/frontend-id/s.feid.dev.git",
+  "homepage": "https://github.com/frontend-id/s.feid.dev",
   "author": "Frontend Indonesia <halo@feid.dev> (https://feid.dev)",
-  "license": "MIT",
-  "private": false,
+  "scripts": {
+    "shorten": "netlify-shortener"
+  },
   "devDependencies": {
     "netlify-shortener": "^2.3.0"
   }
