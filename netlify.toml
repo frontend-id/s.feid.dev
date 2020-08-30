@@ -1,0 +1,4 @@
+# Fallback
+[[redirects]]
+  from = "/*"
+  to = "https://feid.dev"
